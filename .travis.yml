@@ -2,5 +2,4 @@ language: python
 python:
   - "3.6"
 
-script: python py_down.py
-
+script: python py_down.py < testing.txt
